@@ -2,3 +2,46 @@
     margin: 0px;
     padding: 0px;
 }
+
+.master-flexbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+/*-----------------------------------------header---------------------------*/
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: #78a1bb;
+}
+/*-------------------*/
+.head-logo {
+    display: flex;
+    margin: 8px;
+    font-family: "Diplomata SC",sans-serif;
+    font-size: 30px;
+    align-items: center;
+  
+}
+
+ul.links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+li.link {
+    display: flex;
+    margin: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+    font-family: "Unica One", sans-serif;
+}
+
+/*-----------------------------------body1---------------------------------------*/
