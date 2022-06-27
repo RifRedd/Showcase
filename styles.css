@@ -1,0 +1,251 @@
+.master-flexbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+/* --------------Taskbar------------*/
+.taskbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header.logo {
+    display: flex;
+    padding: 8px;
+    margin: 2px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    padding: 8px;
+    margin: 6px;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:link { text-decoration: none; color: inherit;}
+a:visited { text-decoration: none; color: inherit;}
+a:hover { text-decoration: none; color: inherit;}
+a:active { text-decoration: none; color: inherit;}
+
+/* --------------Taskbar------------*/
+
+/* --------------Header------------*/
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.intro-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.text.one {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.paragraph {
+    color: gray;
+    font-size: 18px;
+}
+
+.button.one {
+    display: flex;
+    background-color: #3882F6;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 70px;
+    justify-content: center;
+    margin-top: 4px;
+    color: #E5E7EB;
+    border-radius: 1px 6px 6px 6px;
+}
+
+.image.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding: 100px;
+    background-color: gray;
+}
+
+.box-image {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+/* --------------Header------------*/
+
+/* --------------Quote------------*/
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.q-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.q-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 32px;
+    justify-content: center;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 16px;
+    margin-bottom: 80px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+}
+
+.q {
+    display: flex;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    height: 8em;
+    width: 9em;
+}
+
+.qtext {
+    display: flex;
+    text-align: center;
+    color: gray;
+}
+
+/* --------------Quote------------*/
+
+/* --------------Thor------------*/
+
+.thor {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.thor-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.tthor {
+    display: flex;
+}
+
+.tthor.one {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.tthor.two {
+    justify-content: end;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* --------------Thor------------*/
+
+/* --------------CTA------------*/
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 64px;
+    padding: 32px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.cta-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-two {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-left: 64px;
+    align-items: center;
+}
+
+.cta-text-one {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-text-two {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    color: white;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* --------------CTA------------*/
+
+/* --------------Footer------------*/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.foot-text {
+    display: flex;
+    color: white;
+    margin: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
